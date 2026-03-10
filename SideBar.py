@@ -85,6 +85,12 @@ class SideBarCopyNameCommand(SideBarCommand):
         self.copy_to_clipboard_and_inform(names)
 
 
+class SideBarRenameCommand(SideBarCommand):
+
+    def run(self, paths=[], **kwargs):
+        self.window.run_command('rename_path', {'paths': self.get_paths(paths, **kwargs)})
+
+
 class SideBarCopyAbsolutePathCommand(SideBarCommand):
 
     def is_visible(self, paths=[], context='', **kwargs):

@@ -23,6 +23,11 @@
 		"args": { "paths": [], "context": "tab", "group": -1, "index": -1 }
 	},
 	{
+		"caption": "Rename…",
+		"command": "side_bar_rename",
+		"args": { "paths": [], "context": "tab", "group": -1, "index": -1 }
+	},
+	{
 		"caption": "Delete",
 		"command": "side_bar_delete",
 		"args": { "paths": [], "context": "tab", "group": -1, "index": -1 }
