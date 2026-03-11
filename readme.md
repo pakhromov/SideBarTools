@@ -57,6 +57,7 @@ We used [SidebarEnhancements][1] as a starting point, but completely re-implemen
 
 ## Buy me a coffee 
 
-☕️👌🏻
+Please feel free to make a little donation towards the coffee that keeps this labour of love running. It's much appreciated!
 
-Please feel free to make a little [donation via PayPal](https://paypal.me/koenlageveen) towards the coffee that keeps this labour of love running. It's much appreciated!
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/G2G21VT3Z6)
+
