@@ -33,6 +33,11 @@
 		"args": { "paths": [], "context": "tab", "group": -1, "index": -1 }
 	},
 	{
+		"caption": "Open…",
+		"command": "side_bar_open",
+		"args": { "paths": [], "context": "tab", "group": -1, "index": -1 }
+	},
+	{
 		"caption": "Duplicate…",
 		"command": "side_bar_duplicate",
 		"args": { "paths": [], "context": "tab", "group": -1, "index": -1 }

@@ -358,6 +358,13 @@ class SideBarNewCommand(SideBarCommand):
         self.window.open_file(path)
 
 
+class SideBarOpenCommand(SideBarCommand):
+
+    def run(self, paths=[], **kwargs):
+        for path in self.get_paths(paths, **kwargs):
+            self.window.run_command('open_dir', {'dir': os.path.dirname(path), 'file': os.path.basename(path)})
+
+
 class SideBarEditCommand(SideBarCommand):
 
     def is_visible(self, **kwargs):
